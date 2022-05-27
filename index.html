@@ -5,21 +5,25 @@
     <base href=".">
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
     <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
-    <meta name="description" content="PerfNA 2022 Worshop">
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=default">
+    </script>
+    <meta name="description" content="Conference Template">
     <meta name="resource-type" content="document">
     <meta name="distribution" content="global">
-    <meta name="KeyWords" content="perfna, 2022, sigmetrics, performance, workshop, networking, PerfNA">
-    <title>PerfNA '22: Performance of Host-based Network Applications</title>
+    <meta name="KeyWords" content="Conference">
+    <title>Program | Conference Template</title>
 </head>
+
 <body>
 
     <div class="banner">
-        <img src="assets/banner.jpeg" alt="PerfNA '22">
+        <img src="assets/banner.jpeg" alt="Conference Template Banner">
         <div class="top-left">
-            <span class="title1">PerfNA</span><span class="title2">&nbsp; Workshop</span> <span class="year">&nbsp; 2022</span>
+            <span class="title1">PerfNA</span><span class="title2">Workshop</span> <span class="year">2022</span>
         </div>
         <div class="bottom-right">
-            June 6, 2022 <br> IIT-Bombay, Mumbai (and Online) <br> In conjunction with <a href="https://www.sigmetrics.org/sigmetrics2022/">SIGMETRICS 2022</a>
+            June 6, 2022 <br> IIT-Bombay, Mumbai (and Online) <br> In conjuction with <a href="https://www.sigmetrics.org/sigmetrics2022/">SIGMETRICS 2022</a>
         </div>
     </div>
 
@@ -29,10 +33,10 @@
                 <a class="current" title="Conference Home Page" href=".">Home</a>
             </td>
             <td class="navigation">
-                <a title="Conference Program" href="program">Program</a>
+                <a title="Call for Papers" href="cfp">CFP</a>
             </td>
             <td class="navigation">
-                <a title="Conference Program" href="tutorial">Tutorial</a>
+                <a title="Hands-On" href="tutorial">eBPF Hands-on</a>
             </td>
             <td class="navigation">
                 <a title="Directions to the Conference" href="directions">Directions</a>
@@ -42,20 +46,7 @@
             </td> -->
         </tr>
     </table>
-
     <h2>[PerfNA] Performance of host-based Network Applications</h2>
-    <p>
-            <div class="new">
-                <img src="assets/new.webp" alt="NEW" width="50"><h4>Graduate Forum</h4>
-                We are conducting a graduate forum for students working in this area (networking, DCN, SDN, etc) to present and get feedback regarding their works from the broader community.
-                <p>
-                The students need to submit a 1-page proposal (with Title, Name, Abstract, Intro (motivation/challenges), next-steps and references) to <a href="https://forms.gle/JDVj9cgddiMtD3bw8" target="_blank">here</a>
-                by 23rd May 11:59 IST</b>
-                </p>
-            </div>
-
-    </p>
-    <h3>Call for papers</h3>
     <p>
         With the advancement of highly network-powered paradigms like 5G, Microservices, etc. which are typically deployed as containers/VMs, there is a growing imperative on the host nodes to perform specialized network tasks like monitoring, filtering, tunneling, load-balancing, etc. While traditionally, these tasks were performed using switches and specialized middleboxes in the network, there is a demand to perform these network tasks on commodity hardware comprising of COTS servers. However, a major challenge is to perform these tasks at low-overhead and high reliability while maintaining low latency, high throughput, and flexibility.
     </p>
@@ -65,91 +56,257 @@
     <p>
         This workshop is focused on understanding the performance aspects of network applications built over such tools and targets. With several heterogeneous approaches available at the hosts, there is a need for dedicated discussions in this area to understand the pros/cons of using different approaches to solve different network issues, and how these different approaches can converge into a unified framework at the host. We hope this workshop could serve as a catalyst to initiate discussion both among industry and academia on how host-based tools can be leveraged to solve complex network issues and encourage its wide adaptability.
     </p>
-    <h4>&nbsp; &nbsp; &nbsp; &nbsp;Topics of Interest</h4>
-    <p>Topics of interest include but not limited to : </p>
-    <ul>
-        <li>Network Stack Performance</li>
-        <li>Network observability (Monitoring & Debugging)</li>
-        <li>Protocol acceleration</li>
-        <li>Application acceleration</li>
-        <li>Transport-layer acceleration</li>
-        <li>Modularization of network processing</li>
-        <li>Performance Benchmarking </li>
-        <li>Optimizing performance of Network Applications </li>
-        <li>Improving Performance using Network Programmability</li>
-        <li>Compiler optimizations for various network targets</li>
-        <li>Offload across targets</li>
-        <li>Resource management for network applications</li>
-        <li>Security for network applications</li>
-        <li>Trade-off between performance and security</li>
-    </ul>
 
-    <h4>&nbsp; &nbsp; &nbsp;&nbsp;Submission Instructions</h4>
-    <p>
-        Submissions must be original, unpublished work, and not under consideration at another conference or journal. We encourage early-stage works, position/experience papers for early feedback. Submitted papers must be at most six (6) pages long, excluding references and appendices, in two-column 10pt ACM format.
-
-    </p>
-    <p>
-        Accepted papers (6-page) will be posted online prior to the workshop and will be published in ACM Digital Library. Since the workshop is conducted in hybrid-mode, the authors have an option to present in-person/online.
-    </p>
-
-    <p>
-        Please submit your paper via <a href="https://perfna22.hotcrp.com" target="_blank">https://perfna22.hotcrp.com</a>
-        Kindly indicate the version (3-page/6-page) during submission.
-    </p>
-
-    <h3>Important Dates</h3>
-    <ul>
-        <li class="new">Submission deadline &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;: <s>April 18th</s> April 29th, 2022, 11:59PM AoE (Anywhere on Earth)<img src="assets/new.webp" alt="NEW" width="50"></li>
-        <li>Acceptance Notification &nbsp;: May 16th, 2022</li>
-        <li>Camera-ready deadline &nbsp; &nbsp;: May 26th, 2022</li>
-        <li>Workshop day &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: June 6th, 2022</li>
-    </ul>
-    <h3>Organizers</h3>
-    <h4>&nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; Organizing Committee</h4>
-    <ul>
-        <li>Pravein Govindan Kannan, IBM Research</li>
-        <li>Priyanka Naik, IBM Research</li>
-        <li>Praveen Tammana, IIT Hyderabad</li>
-        <li>Mythili Vutukuru, IIT Bombay</li>
-    </ul>
-    <h4>&nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; Technical Program Committee</h4>
-    <ul>
-        <li>Sebastiano Miano, Queen Mary University London (UK)</li>
-        <li>Praveen Jayachandran, IBM Research</li>
-        <li>Krishna Sivalingam, IIT Madras</li>
-        <li>Michio Honda, University of Edinburgh</li>
-        <li>Ming Liu, UW-Madison</li>
-        <li>Aniruddha Singh Kushwaha, IIT Indore</li>
-        <li>Ang chen, Rice university</li>
-        <li>Rinku Shah, IIIT Delhi</li>
-        <li>Mina Tahmasbi Arashloo,	Cornell University</li>
-        <li>Sameer G Kulkarni, IIT Gandhinagar</li>
-        <li>Antoine Kaufmann, Max Planck Institute for Software Systems (MPI-SWS)</li>
-        <li>Muhammad Asim Jamshed, Amazon Web Services (AWS)</li>
-        <li>Hardik Soni, NEC Laboratories Europe GmbH</li>
-    </ul>
-
-
-    <!-- <table class="sponsors">
+    <h2>Workshop Program</h2>
+    <table id="Organizers">
         <tr>
-            <td class="sponsor">
-                <a href="http://www.eyebleach.me/">
-                    <img src="assets/kitten1.jpg" alt="First Sponsor Name">
-                </a>
+            <td class="date" rowspan="3">
+                9:00 AM IST
             </td>
-            <td class="sponsor">
-                <a href="http://www.eyebleach.me/">
-                    <img src="assets/kitten2.jpg" alt="Second Sponsor Name" style="width: 80%">
-                </a>
-            </td>
-            <td class="sponsor">
-                <a href="http://www.eyebleach.me/">
-                    <img src="assets/kitten3.jpg" alt="Third Sponsor Name">
-                </a>
+            <td class="title">
+                Welcome Address by Organizers
             </td>
         </tr>
-    </table> -->
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="date" rowspan="3">
+                9:15 AM - 9:40 AM IST
+            </td>
+            <td class="title">
+                GranularNF: Granular Decomposition of Stateful NFV at 100 Gbps Line Speed and Beyond
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                Ziyan Wu, Tianming Cui, Arvind Narayanan, Yang Zhang, Kangjie Lu, Antonia Zhai, Zhi-Li Zhang (University of Minnesota – Twin Cities)
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Abstract : In this paper, we consider the challenges that arise from the need to scale virtualized network functions (VNFs) at 100 Gbps line speed and beyond. Traditional VNF designs are
+monolithic in state management and scheduling: internally maintaining all states and operations associated with them. Without proper design considerations, it suffers from limitations when scaling at 100 Gbps link speed and beyond:
+the inability of efficient utilization of the cache because of the contention due to the frequent control plane activities, computational/memory-intensive tasks taking up CPU times,
+shares states causing the synchronization among the cores. We address these limitations by arguing for the need to granularly decompose a VNF into data/control components
+that are co-located within a server but can be independently scaled among the cores. To realize the approach, we design a "serverless" programming framework with novel abstraction
+to optimize the data components that must process packets at the line speed, reduce the contention of the data states and enable run-time scheduling of different components for
+improved resource utilization. The abstractions, combined with the runtime system that we design, help NFV developers focus on the logic and correctness of VNF programming
+without worrying about how VNFs may be scaled in or out. We evaluate our platform by comparing it with monolithic approaches using different workloads and by analyzing its
+advantages of separation on scalability, performance determinism, and feature velocity.
+            </td>
+        </tr>
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="date" rowspan="3">
+                9:45 AM - 10:15 AM IST
+            </td>
+            <td class="title">
+                Invited Talk: Cooperative Network Functions
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                Ganesh C. Sankaran (Information Sciences Institute/University of Southern California)
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                <b>Absract:</b> When a packet traverses the network towards a destination It encounters several network switches. These network switches executes a series of functions on the packet.  We observe that these functions are repetitive. Then we introduce the notion of cooperation among consecutive switches to reduce repetition. We formulate this as an optimization of cooperative network functions. The rest of the talk will present our cooperative parsing and routing works in detail.
+            </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td class="bio">
+                <b>Bio:</b> Ganesh is currently a computer scientist at USC's Information Sciences Institute. He received his Masters and Doctoral degrees in Computer Science and Engineering from IIT Madras. He has rich industry experience working for Cisco and Dell EMC. He has more than 20 issued patents and another 7 in various stages in Indian and US patent offices. He has served in TPC of ICC ONS and NCC. He is an expert reviewer on INFOCOM, and ToN. His interest lies at the intersection of High speed networks and Computing specifically focusing on cross layer concerns such as security and power.
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td class="date" rowspan="2">
+                10:15 AM - 10:30 AM
+            </td>
+            <td class="title-special">
+                Coffee &amp; Tea Break
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+            </td>
+        </tr>
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="date" rowspan="3">
+                10:30 AM - 11:00 AM IST
+            </td>
+            <td class="title">
+                Software-hardware Co-design for Network Functions in Cloud
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                Rohan Gandhi (Microsoft)
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Abstract: Network Functions (NFs) such as Firewall, IDS and load-balancers demand low latency and high throughput to improve application performance and lower costs. While the status-quo has been to buy specialized devices to implement NFs, there is a growing trend to implement these NFs on commodity servers. Such designs offer high "programmability" and faster development cycles, but suffer from high latency and low throughput per instance by processing packets in the software. On the other hand, P4 and Broadcom based switches offer low latency and ultra-high throughput. We believe that hardware-software co-design offers a sweet spot to get the best of switches and software. In this work, we show how to build such a hybrid design using load-balancer as an example. We show that such a design can substantially improve latency, throughput, availability at a fraction of costs.
+            </td>
+
+        </tr>
+        <tr>
+            <td> </td>
+            <td class="bio">
+                Bio: Rohan Gandhi is a research engineer at Microsoft Research India. He previously completed his PhD at Purdue university advised by Prof. Y. Charlie Hu. His research work spans many aspects of networking and systems including network functions, SDN, cluster scheduling, key-value stores. His research work is published in many top conferences including ACM SIGCOMM, ACM CoNEXT, Usenix ATC and ACM Eurosys.
+            </td>
+        </tr>
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="date" rowspan="3">
+                11:00 AM - 11:30 AM IST
+            </td>
+            <td class="title">
+                TBD
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                Rinku Shah (IIIT Delhi)
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+            </td>
+            <td class="abstract">
+            </td>
+        </tr>
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="date" rowspan="3">
+                11:30 AM - 12:00 PM IST
+            </td>
+            <td class="title">
+                NFV and Edge Cloud for Efficient Machine Learning and Security Services.
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                Sameer G Kulkarni (IIT Gandhinagar)
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Abstract: Edge clouds are deployed to provide very responsive services to the end-users.  Especially, the increasing demand for cloud-based inference services requires the use of Graphics Processing Units (GPUs). However, the Edge resources such as CPUs and GPUs are limited and must be shared across multiple concurrently running clients. It is highly desirable to multiplex different inference tasks on the GPU and utilize the GPUs efficiently. Batched processing, CUDA streams and Multi-process-service (MPS) help. However, we find that these are not adequate for achieving scalability and do not guarantee predictable performance. Further, edge servers require considerable amounts of streaming data to be processed and account for load variations.
+
+                In this talk, I will present  our NFV platform GSLICE.  GSLICE incorporates a dynamic GPU resource allocation and management framework to maximize performance and resource utilization. We virtualize the GPU by apportioning the GPU resources across different Inference Functions (IFs), thus providing isolation and guaranteeing performance. We develop controlled spatial sharing of GPU, self-learning and adaptive GPU resource allocation and batching schemes that account for network traffic characteristics, while also keeping inference latencies below service level objectives. GSLICE adapts quickly to the streaming data’s workload intensity and the variability of GPU processing costs. GSLICE provides scalability of the GPU for IF processing through efficient and controlled spatial multiplexing, coupled with a GPU resource reallocation scheme with minimal (< 100 microseconds) downtime. Compared to TensorRT and default MPS, GSLICE significantly improves GPU utilization efficiency and achieves 2-13x improvement in aggregate throughput.
+            </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td class="abstract">
+                Bio: Sameer G Kulkarni is an Assistant Professor in Computer Sciences at Indian Institute of Technology, Gandhinagar. Prior to this, he worked as a postdoctoral  researcher at the University of California, Riverside. He  received a Ph.D.  degree  in  Computer  Science  from University  of  Göttingen, Germany  in  July  2018. He  received his M.S. degree in Computer Engineering from the University of Southern California, in 2010, and B.E. degree in Computer Science and Engineering from National Institute of Engineering, Mysore, in 2004. He is the recipient of the IEEE TCSC Best PhD Dissertation Award 2019. His work focuses on the resource management aspects towards building Efficient, Scalable and Resilient NFV/Edge platforms. His  research  interests  include  Software  Defined  Networking, Network Function Virtualization, Edge Cloud Platforms, Distributed systems, and  Disaster  Management.
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td class="date" rowspan="2">
+                12:00 PM - 1:00 PM IST
+            </td>
+            <td class="title-special">
+                Lunch
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+            </td>
+        </tr>
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="date" rowspan="3">
+                1:00 PM - 1:30 PM IST
+            </td>
+            <td class="title">
+                Domain Specific Run Time Optimization for Software Data Planes
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                Sebastian Miano (Queen Mary University London (UK))
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Abstract: State-of-the-art approaches to design, develop and optimize software packet-processing programs are based on static compilation: the compiler’s input is a description of the forwarding plane semantics and the output is a binary that can accommodate any control plane configuration or input traffic.
+In this talk, I will demonstrate that tracking control plane actions and packet-level traffic dynamics at run time opens up new opportunities for code specialization. I will present Morpheus, a system working alongside static compilers that continuously optimizes the targeted networking code. Morpheus introduces a number of new techniques, from static code analysis to adaptive code instrumentation, together with a toolbox of domain specific optimizations that are not restricted to a specific data plane framework or programming language. We applied Morpheus to several eBPF and DPDK programs including Katran, Facebook’s production-grade load balancer, showing considerable improvement both in terms of throughput and latency.
+            </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td class="abstract">
+                Bio: Sebastiano Miano is a PostDoc researcher at the School of Electronic Engineering and Computer Science of Queen Mary University of London. He received his Ph.D. and M.Sc. from the Computer Engineering department of Politecnico di Torino, in Italy. During his PhD he was Visiting Researcher at the EIT Digital Silicon Valley Hub in San Francisco, and at the University of Cambridge, UK. His research interests include programmable data planes and high-speed network function virtualization with a focus on eBPF and XDP.
+            </td>
+        </tr>
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="date" rowspan="3">
+                1:30 PM - 2:00 PM IST
+            </td>
+            <td class="title">
+                TBD
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                Hardik Soni (NEC Laboratories Europe GmbH)
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+            </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td class="abstract">
+            </td>
+        </tr>
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="date" rowspan="3">
+                2:00 PM - 4:00 PM IST
+            </td>
+            <td class="title">
+                eBPF Hands-on
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Details of the hands-on session are available <a title="hands-on" href="tutorial">Here</a>
+            </td>
+        </tr>
+    </table>
+
 
     <footer>
         &nbsp;|&nbsp; Template from <a href="https://github.com/mikepierce">Mike Pierce</a>

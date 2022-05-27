@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <base href="..">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
+    <meta name="description" content="PerfNA 2022 Worshop">
+    <meta name="resource-type" content="document">
+    <meta name="distribution" content="global">
+    <meta name="KeyWords" content="perfna, 2022, sigmetrics, performance, workshop, networking, PerfNA">
+    <title>PerfNA '22: Performance of Host-based Network Applications</title>
+</head>
+<body>
+
+    <div class="banner">
+        <img src="assets/banner.jpeg" alt="PerfNA '22">
+        <div class="top-left">
+            <span class="title1">PerfNA</span><span class="title2">&nbsp; Workshop</span> <span class="year">&nbsp; 2022</span>
+        </div>
+        <div class="bottom-right">
+            June 6, 2022 <br> IIT-Bombay, Mumbai (and Online) <br> In conjunction with <a href="https://www.sigmetrics.org/sigmetrics2022/">SIGMETRICS 2022</a>
+        </div>
+    </div>
+
+    <table class="navigation">
+        <tr>
+            <td class="navigation">
+                <a class="current" title="Conference Home Page" href=".">Home</a>
+            </td>
+            <td class="navigation">
+                <a title="Call for Papers" href="cfp">CFP</a>
+            </td>
+            <td class="navigation">
+                <a title="Hands-On" href="tutorial">eBPF Hands-on</a>
+            </td>
+            <td class="navigation">
+                <a title="Directions to the Conference" href="directions">Directions</a>
+            </td>
+            <!-- <td class="navigation">
+                <a title="Conference Flyer" href="flyer">Flyer</a>
+            </td> -->
+        </tr>
+    </table>
+
+    <h2>[PerfNA] Performance of host-based Network Applications</h2>
+    <p>
+            <div class="new">
+                <img src="assets/new.webp" alt="NEW" width="50"><h4>Graduate Forum</h4>
+                We are conducting a graduate forum for students working in this area (networking, DCN, SDN, etc) to present and get feedback regarding their works from the broader community.
+                <p>
+                The students need to submit a 1-page proposal (with Title, Name, Abstract, Intro (motivation/challenges), next-steps and references) to <a href="https://forms.gle/JDVj9cgddiMtD3bw8" target="_blank">here</a>
+                by 23rd May 11:59 IST</b>
+                </p>
+            </div>
+
+    </p>
+    <h3>Call for papers</h3>
+    <p>
+        With the advancement of highly network-powered paradigms like 5G, Microservices, etc. which are typically deployed as containers/VMs, there is a growing imperative on the host nodes to perform specialized network tasks like monitoring, filtering, tunneling, load-balancing, etc. While traditionally, these tasks were performed using switches and specialized middleboxes in the network, there is a demand to perform these network tasks on commodity hardware comprising of COTS servers. However, a major challenge is to perform these tasks at low-overhead and high reliability while maintaining low latency, high throughput, and flexibility.
+    </p>
+    <p>
+        Recently, there are several approaches from academia and industry for building such high-performance network applications. The proposed solutions are built on different high-speed packet processing targets such as DPDK (Data Plane Development Toolkit), eBPF(Extended Berkeley Packet Filter), P4-based smart NICs, DPUs, IPUs, OVS, RDMA, FPGA, etc, each has its own compiler toolchain, accelerators, and programming interface for developers. Some prior work also leverages these solutions for optimizing the TCP stack which benefits these applications deployed on COTS servers.
+    </p>
+    <p>
+        This workshop is focused on understanding the performance aspects of network applications built over such tools and targets. With several heterogeneous approaches available at the hosts, there is a need for dedicated discussions in this area to understand the pros/cons of using different approaches to solve different network issues, and how these different approaches can converge into a unified framework at the host. We hope this workshop could serve as a catalyst to initiate discussion both among industry and academia on how host-based tools can be leveraged to solve complex network issues and encourage its wide adaptability.
+    </p>
+    <h4>&nbsp; &nbsp; &nbsp; &nbsp;Topics of Interest</h4>
+    <p>Topics of interest include but not limited to : </p>
+    <ul>
+        <li>Network Stack Performance</li>
+        <li>Network observability (Monitoring & Debugging)</li>
+        <li>Protocol acceleration</li>
+        <li>Application acceleration</li>
+        <li>Transport-layer acceleration</li>
+        <li>Modularization of network processing</li>
+        <li>Performance Benchmarking </li>
+        <li>Optimizing performance of Network Applications </li>
+        <li>Improving Performance using Network Programmability</li>
+        <li>Compiler optimizations for various network targets</li>
+        <li>Offload across targets</li>
+        <li>Resource management for network applications</li>
+        <li>Security for network applications</li>
+        <li>Trade-off between performance and security</li>
+    </ul>
+
+    <h4>&nbsp; &nbsp; &nbsp;&nbsp;Submission Instructions</h4>
+    <p>
+        Submissions must be original, unpublished work, and not under consideration at another conference or journal. We encourage early-stage works, position/experience papers for early feedback. Submitted papers must be at most six (6) pages long, excluding references and appendices, in two-column 10pt ACM format.
+
+    </p>
+    <p>
+        Accepted papers (6-page) will be posted online prior to the workshop and will be published in ACM Digital Library. Since the workshop is conducted in hybrid-mode, the authors have an option to present in-person/online.
+    </p>
+
+    <p>
+        Please submit your paper via <a href="https://perfna22.hotcrp.com" target="_blank">https://perfna22.hotcrp.com</a>
+        Kindly indicate the version (3-page/6-page) during submission.
+    </p>
+
+    <h3>Important Dates</h3>
+    <ul>
+        <li class="new">Submission deadline &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;: <s>April 18th</s> April 29th, 2022, 11:59PM AoE (Anywhere on Earth)<img src="assets/new.webp" alt="NEW" width="50"></li>
+        <li>Acceptance Notification &nbsp;: May 16th, 2022</li>
+        <li>Camera-ready deadline &nbsp; &nbsp;: May 26th, 2022</li>
+        <li>Workshop day &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: June 6th, 2022</li>
+    </ul>
+    <h3>Organizers</h3>
+    <h4>&nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; Organizing Committee</h4>
+    <ul>
+        <li>Pravein Govindan Kannan, IBM Research</li>
+        <li>Priyanka Naik, IBM Research</li>
+        <li>Praveen Tammana, IIT Hyderabad</li>
+        <li>Mythili Vutukuru, IIT Bombay</li>
+    </ul>
+    <h4>&nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; Technical Program Committee</h4>
+    <ul>
+        <li>Sebastiano Miano, Queen Mary University London (UK)</li>
+        <li>Praveen Jayachandran, IBM Research</li>
+        <li>Krishna Sivalingam, IIT Madras</li>
+        <li>Michio Honda, University of Edinburgh</li>
+        <li>Ming Liu, UW-Madison</li>
+        <li>Aniruddha Singh Kushwaha, IIT Indore</li>
+        <li>Ang chen, Rice university</li>
+        <li>Rinku Shah, IIIT Delhi</li>
+        <li>Mina Tahmasbi Arashloo,	Cornell University</li>
+        <li>Sameer G Kulkarni, IIT Gandhinagar</li>
+        <li>Antoine Kaufmann, Max Planck Institute for Software Systems (MPI-SWS)</li>
+        <li>Muhammad Asim Jamshed, Amazon Web Services (AWS)</li>
+        <li>Hardik Soni, NEC Laboratories Europe GmbH</li>
+    </ul>
+
+
+    <!-- <table class="sponsors">
+        <tr>
+            <td class="sponsor">
+                <a href="http://www.eyebleach.me/">
+                    <img src="assets/kitten1.jpg" alt="First Sponsor Name">
+                </a>
+            </td>
+            <td class="sponsor">
+                <a href="http://www.eyebleach.me/">
+                    <img src="assets/kitten2.jpg" alt="Second Sponsor Name" style="width: 80%">
+                </a>
+            </td>
+            <td class="sponsor">
+                <a href="http://www.eyebleach.me/">
+                    <img src="assets/kitten3.jpg" alt="Third Sponsor Name">
+                </a>
+            </td>
+        </tr>
+    </table> -->
+
+    <footer>
+        &nbsp;|&nbsp; Template from <a href="https://github.com/mikepierce">Mike Pierce</a>
+    </footer>
+
+</body>
+</html>
